@@ -4,5 +4,7 @@ SELECT nimi, pikkus FROM laps
 
 2. Дополни SQL запрос, добавь условие, что из таблицы laps будет отображаться рост ребенка меньше 150
 
+SELECT * FROM laps
+WHERE pikkus<150
 
 
